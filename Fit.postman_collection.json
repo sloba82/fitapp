@@ -1,0 +1,47 @@
+{
+	"info": {
+		"_postman_id": "bbdc3aae-9273-438d-a259-07b2a1308099",
+		"name": "Fit",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "GET /reception",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/reception?object_uuid=653d718b-6e40-415c-bcbb-87f25793e78c&card_uuid=5a2da4ed-6374-42cb-9690-011082c2f9d7",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"reception"
+					],
+					"query": [
+						{
+							"key": "object_uuid",
+							"value": "653d718b-6e40-415c-bcbb-87f25793e78c"
+						},
+						{
+							"key": "card_uuid",
+							"value": "5a2da4ed-6374-42cb-9690-011082c2f9d7"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
